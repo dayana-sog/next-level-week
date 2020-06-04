@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiLogIn } from 'react-icons/fi';
+import { FiLogIn, FiSearch } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.svg'
@@ -23,6 +23,13 @@ const Home = () => {
               <FiLogIn />
             </span>
             <strong>Cadastre um ponto de coleta</strong>
+          </Link>
+
+          <Link to="/search-point">
+            <span>
+              <FiSearch />
+            </span>
+            <strong>Busque pontos de coleta</strong>
           </Link>
         </main>
       </div>

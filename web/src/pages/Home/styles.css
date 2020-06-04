@@ -104,4 +104,19 @@
   #page-home .content main p {
     font-size: 24px;
   }
+
+  .search {
+      width: 100%;
+      max-width: 360px;
+      height: 72px;
+      background: var(--primary-color);
+      border-radius: 8px;
+      text-decoration: none;
+    
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    
+      margin-top: 40px;
+  }
 }
